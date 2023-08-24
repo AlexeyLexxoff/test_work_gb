@@ -59,11 +59,30 @@ https://docs.microsoft.com/ru-ru/contribute/markdown-reference
 
 
 ## Добавление изображений 
-djnhaj
-fdgadfgadfgqern
-jstytjdtyjartharthsyrtkjkdytukfyukartaegWA
-WERGAERAHDFGHHHFGHFGFHGAERTYRUDTYTKDTULKDXTYUL
 
+Картинка без `alt` текста
+
+![](https://static.onlinetrade.ru/img/items/m/mashinka_tooko_81475_2_moya_pervaya_gonochnaya_mashina_2227908_2.jpg)
+
+Картинка с альтом и тайтлом:
+
+![Alt text](https://static.onlinetrade.ru/img/items/m/mashinka_tooko_81475_2_moya_pervaya_gonochnaya_mashina_2227908_2.jpg "Можно задать title")
+
+Запомнить просто: синтаксис как у ссылок, только перед открывающей квадратной скобкой ставится восклицательный знак.
+
+Картинки «сноски»:
+
+![Картинка][image1]
+![Картинка][image2]
+![Картинка][image3]
+
+[image1]: //placehold.it/250x100
+[image2]: //placehold.it/200x100
+[image3]: //placehold.it/150x100
+
+Картинки-ссылки:
+
+[![Alt text](//placehold.it/150x100)](http://example.com/)
 
 
 
