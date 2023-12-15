@@ -1,29 +1,25 @@
-package HomeWork;
-
 class Answer {
-    public int countNTriangle(int n) {
-        return n;
+  public static StringBuilder answer(String QUERY, String PARAMS) {
 
-        // Введите свое решение ниже
-
-    }
+  }
 }
 
 // Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
 public class Printer {
-    public static void main(String[] args) {
-        int n = 4;
+  public static void main(String[] args) {
+    String QUERY = "";
+    String PARAMS = "";
 
-        if (args.length == 0) {
-            // При отправке кода на Выполнение, вы можете варьировать эти параметры
-            n = 4;
-        } else {
-            n = Integer.parseInt(args[0]);
-        }
-
-        // Вывод результата на экран
-        Answer ans = new Answer();
-        int itresume_res = ans.countNTriangle(n);
-        System.out.println(itresume_res);
+    if (args.length == 0) {
+      // При отправке кода на Выполнение, вы можете варьировать эти параметры
+      QUERY = "select * from students where ";
+      PARAMS = "{\"name\":\"Ivanov\", \"country\":\"Russia\", \"city\":\"Moscow\", \"age\":\"null\"} ";
+    } else {
+      QUERY = args[0];
+      PARAMS = args[1];
     }
+
+    Answer ans = new Answer();
+    System.out.println(ans.answer(QUERY, PARAMS));
+  }
 }

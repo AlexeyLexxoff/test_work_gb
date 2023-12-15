@@ -1,0 +1,12 @@
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: Initial array: [5, 2, 8, 1, 9]
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: 2023-12-15 20:31:27 [2, 5, 1, 8, 9]
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: 2023-12-15 20:31:27 [2, 1, 5, 8, 9]
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: 2023-12-15 20:31:27 [1, 2, 5, 8, 9]
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: 2023-12-15 20:31:27 [1, 2, 5, 8, 9]
+дек. 15, 2023 8:31:27 PM BubbleSort sort
+INFO: Sorted array: [1, 2, 5, 8, 9]
