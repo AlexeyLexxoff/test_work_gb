@@ -1,5 +1,6 @@
 class Answer {
   public static StringBuilder answer(String QUERY, String PARAMS) {
+    return null;
 
   }
 }
