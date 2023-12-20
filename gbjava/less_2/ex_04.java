@@ -7,8 +7,6 @@ import java.util.Scanner;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
-import javax.management.RuntimeErrorException;
-
 // Задание №4
 // Напишите метод, который составит строку, состоящую из 100
 // повторений слова TEST и метод, который запишет эту строку в
