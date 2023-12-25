@@ -21,10 +21,8 @@ public class ex_02 {
             String line = scanner.nextLine();
             switch (line) {
                 case "print":
-
                     for (int i = list.size() - 1; i >= 0; i--) {
                         System.out.println(list.get(i));
-
                     }
                     break;
                 case "revert":
