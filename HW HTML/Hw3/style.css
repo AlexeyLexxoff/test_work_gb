@@ -6,15 +6,10 @@
   text-decoration: none;
 }
 
-body {
+.body {
   scroll-behavior: smooth;
 
   background: rgb(255, 255, 255);
-}
-
-img {
-  display: block;
-  max-width: 100%;
 }
 
 h1,
@@ -31,18 +26,30 @@ button {
 }
 
 .header {
-  padding: 40px 0;
-  margin-bottom: 84px;
+  padding: 40px 373px;
+  margin-bottom: 100px;
 }
 .navigation {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  gap: 40px; 
+  
+}
+.logotop{    
+  
+  
+  
 }
 
-.navigation a {
-  font-size: 14px;
-}
 
 .main {
   margin-bottom: 100px;
+}
+
+.maninContent {
+  display: flex;
+  gap: 73px;
 }
 
 .mainContent__leftSide h1 {
@@ -60,13 +67,19 @@ button {
 }
 
 .mainContent__leftSide-btn button {
-  padding: 16px 10px;  
+  padding: 16px 10px;
   border-radius: 56px;
   background: rgb(242, 88, 34);
   cursor: pointer;
   margin-right: 16px;
 }
 
-footer{
-    margin-bottom: 100px;
+footer {
+  margin-bottom: 100px;
+}
+
+.logoFoot {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }
